@@ -20,6 +20,7 @@ void printStuff();
 
 /** Modify an array in-place by doubling its elements */
 void inplace(double *inVec, int len);
+void inplace_mat(double *INPLACE_ARRAY2, int DIM1, int DIM2 );
 
 /** Return an array; roughly equivalent to built-in range(n) */
 void range(int *outVec, int len, int step);

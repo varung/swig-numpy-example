@@ -21,6 +21,12 @@ void inplace(double *invec, int n) {
     }
 }
 
+void inplace_mat(double *INPLACE_ARRAY2, int DIM1, int DIM2 ) {
+  for (int i=0; i<DIM1*DIM2; i++) {
+      INPLACE_ARRAY2[i] = 2*INPLACE_ARRAY2[i];
+  }
+}
+
 void range(int *outVec, int len, int step) {
 	int val = 0;
     for (int i=0; i < len; i++) {
