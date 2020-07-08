@@ -133,7 +133,7 @@ assertEqual(ans, output)
 # Tests 12-15 - receiving vectors as numpy arrays
 # ================================
 
-print '------------------------'
+print('------------------------')
 
 out = example.getIntVect()
 assertEqual(np.arange(5, dtype=np.int), out)
